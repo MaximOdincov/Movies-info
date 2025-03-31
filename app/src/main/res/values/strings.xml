@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="placeholder_of_name">Placeholder of name</string>
+    <string name="saved">Избранное</string>
+</resources>
