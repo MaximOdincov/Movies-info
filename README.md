@@ -1,27 +1,60 @@
-# Movie Explorer
+# Movies-Info
 
-![Movie Explorer Logo](path/to/your/logo.png) <!-- Replace with the path to your logo -->
+## Описание проекта
 
-## Description
+Movies-Info — это Android-приложение, которое позволяет пользователям просматривать информацию о фильмах. Приложение предлагает интуитивно понятный интерфейс, где пользователи могут легко находить и изучать фильмы, которые их интересуют.
 
-**Movie Explorer** is an Android application that allows users to browse movies by fetching data from the Kinopoisk API. Users can easily find information about movies, including titles, ratings, images, trailer links, and reviews.
+### Основные функции
 
-## Features
+- **Список фильмов**: На главном экране пользователи могут пролистывать список фильмов, отображаемых в виде постеров. Список оптимизирован для плавной подгрузки данных.
+  
+- **Детальная информация о фильме**: При нажатии на любой постер, пользователь переходит на экран с детальной информацией о фильме, где он может увидеть:
+  - Постер фильма
+  - Название
+  - Описание
+  - Год выпуска
+  - Трейлеры
+  - Отзывы пользователей с различной степенью оценки, отображаемой с помощью смайлов (например, положительные и отрицательные отзывы).
 
-- **Movie Browsing:** Users can scroll through a list of movies, displaying images and ratings.
-- **Detailed Information:** Tapping on a movie allows users to see detailed information, including reviews and trailers.
-- **Favorites:** Users can add movies to their favorites, which will be saved in a local database, allowing access even without an internet connection.
-- **Smooth Loading:** Movies are loaded smoothly, providing a user-friendly interface.
+- **Избранное**: Пользователи могут добавлять фильмы в избранное, что позволяет им получать доступ к информации о фильмах даже без подключения к интернету.
 
-## Screenshots
+## Технологии
 
-![image](https://github.com/user-attachments/assets/b0fb2231-53e4-4076-b233-b808c6e2774e)
+- **Язык программирования**: Java
+- **Библиотеки**:
+  - **Retrofit**: для работы с API
+  - **RxJava**: для асинхронного программирования и управления потоками данных
+  - **Glide**: для загрузки и кэширования изображений
+- **Архитектура**: MVVM (Model-View-ViewModel)
+- **База данных**: Room для локального хранения данных
 
-![Screenshot 2](path/to/your/screenshot2.png) 
-![Screenshot 3](path/to/your/screenshot3.png)
+## Установка
 
-## Installation
-
-1. Clone the repository:
+1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/movie-explorer.git
+   git clone [https://github.com/в/Movies-Info.git](https://github.com/MaximOdincov/Movies-info)
+   ```
+2. Откройте проект в Android Studio.
+
+3. Синхронизируйте проект с Gradle.
+
+4. Запустите приложение на эмуляторе или реальном устройстве.
+
+## Вид приложения
+![Приложение](https://github.com/ваш_пользователь/ваш_репозиторий/raw/main/assets/video.gif)
+
+## Вклад
+
+Если вы хотите внести свой вклад в проект, пожалуйста, создайте форк репозитория, внесите изменения и отправьте пулл-реквест.
+
+## Лицензия
+
+Этот проект лицензирован под MIT License - смотрите файл [LICENSE](LICENSE) для подробностей.
+
+## Контакты
+
+Если у вас есть вопросы или предложения, не стесняйтесь обращаться ко мне по электронной почте: ваш_email@example.com.
+
+---
+
+Спасибо за интерес к Movies-Info! Надеюсь, вам понравится использовать это приложение!
