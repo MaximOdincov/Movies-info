@@ -41,7 +41,7 @@ Movies-Info — это Android-приложение, которое позвол
 4. Запустите приложение на эмуляторе или реальном устройстве.
 
 ## Вид приложения
-![Приложение](https://github.com/MaximOdincov/Movies-info/blob/main/raw/main/assets/video.gif)
+![Приложение](https://github.com/MaximOdincov/Movies-info/blob/main/raw/main/assets/video.gif?raw=true)
 
 ## Вклад
 
