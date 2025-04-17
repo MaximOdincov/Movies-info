@@ -41,12 +41,10 @@ Movies-Info — это Android-приложение, которое позвол
 4. Запустите приложение на эмуляторе или реальном устройстве.
 
 ## Вид приложения
-![Приложение](https://github.com/MaximOdincov/Movies-info/blob/main/raw/main/assets/video.gif?raw=true)
-
-## Вклад
-
-Если вы хотите внести свой вклад в проект, пожалуйста, создайте форк репозитория, внесите изменения и отправьте пулл-реквест.
-
+<div style="display: flex; justify-content: space-around;">
+    <img src="https://github.com/user-attachments/assets/61a52ecb-6948-4c7e-b731-3387f743e7c8" alt="Image 1" style="width: 30%;"/>
+    <img src="https://github.com/user-attachments/assets/049e86c8-f726-4f44-a77f-967e24478e51" alt="Image 2" style="width: 30%;"/>
+</div>
 ## Лицензия
 
 Этот проект лицензирован под MIT License - смотрите файл [LICENSE](LICENSE) для подробностей.
